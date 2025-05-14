@@ -1,0 +1,5 @@
+namespace KeyJoin.CredentialRequesting;
+
+public record ZeroCredentialsRequestData(
+	ZeroCredentialsRequest CredentialsRequest,
+	CredentialsResponseValidation CredentialsResponseValidation);
